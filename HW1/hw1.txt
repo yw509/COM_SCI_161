@@ -1,0 +1,73 @@
+Q1
+
+The large values of n require this function to have a great amount of recursions which needs a lot of time to run. Therefore, when we have a larger input, it might cause the time exceeded problem, which might get stuck while running. Therefore, we cannot get the return result from a large input.
+
+Test Output:
+Break 8 [9]> (SEQ 0)
+1
+Break 8 [9]> (SEQ 1)
+1
+Break 8 [9]> (SEQ 2)
+1
+Break 8 [9]> (SEQ 3)
+3
+Break 8 [9]> (SEQ 4)
+5
+Break 8 [9]> (SEQ 5)
+9
+Break 8 [9]> (SEQ 6)
+17
+Break 8 [9]> (SEQ 7)
+31
+Break 8 [9]> (SEQ 8)
+57
+Break 8 [9]> (SEQ 9)
+105
+Break 8 [9]> (SEQ 10)
+193
+
+
+Q2
+
+Test Output:
+Break 8 [9]> (SUMS 0)
+0
+Break 8 [9]> (SUMS 1)
+0
+Break 8 [9]> (SUMS 2)
+0
+Break 8 [9]> (SUMS 3)
+2
+Break 8 [9]> (SUMS 4)
+4
+Break 8 [9]> (SUMS 5)
+8
+Break 8 [9]> (SUMS 6)
+16
+Break 8 [9]> (SUMS 7)
+30
+Break 8 [9]> (SUMS 8)
+56
+Break 8 [9]> (SUMS 9)
+104
+Break 8 [9]> (SUMS 10)
+192
+
+
+Q3
+
+Test Output:
+Break 8 [9]> (ANON '42)
+0
+Break 8 [9]> (ANON 'FOO)
+0
+Break 8 [9]> (ANON '(((L E) F) T))
+(((0 0) 0) 0)
+Break 8 [9]> (ANON '(5 FOO 3.1 -0.2))
+(0 0 0 0)
+Break 8 [9]> (ANON '(1 (FOO 3.1) -0.2))
+(0 (0 0) 0)
+Break 8 [9]> (ANON '(((1 2) (FOO 3.1)) (BAR -0.2)))
+(((0 0) (0 0)) (0 0))
+Break 8 [9]> (ANON '(R (I (G (H T)))))
+(0 (0 (0 (0 0))))
